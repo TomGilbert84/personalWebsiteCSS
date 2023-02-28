@@ -36,6 +36,15 @@ h3{
     height: 200px;
 }
 
+.footer-image{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
 .work-experience table {
     position: relative;
     margin-left: auto;
@@ -84,31 +93,4 @@ tr{
 
 .bottom-cloud{
     position: absolute;
-}
-
-.blue{
-    background-color: #3C79F5;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 1000px;
-
-}
-
-.red{
-    background-color: #CD0404;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 400px;
-    top: 1400px;
-}
-
-.yellow{
-    background-color: #FFEA20;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 200px;
-    top: 1200px;
 }
