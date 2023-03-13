@@ -68,12 +68,18 @@ hr{
     height: 200px;
 }
 
-.footer-image{
-
+.footer-image {
     width: 50px;
     height: 50px;
-    padding: 3px 30px 15px 30px;
-}
+    margin-bottom: 5px;
+  }
+
+  .image-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
 
 .work-experience table {
     position: relative;
@@ -117,10 +123,9 @@ tr{
     color: #11999E;
     background-color: #AEE2FF;
     border-top-style: solid;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: auto;
-    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -148,10 +153,10 @@ tr{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 15px;
-    padding: 10px 20px 10px 20px;
-    border: 10px 20px 10px 20px;
+    padding: 10px;
+    border: auto;
+    margin: auto;
     text-decoration: none;
-    position: relative;
   }
   
   .btn:hover {
